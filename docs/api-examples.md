@@ -28,6 +28,7 @@ const { theme, page, frontmatter } = useData()
 ### Page Frontmatter
 
 <pre>{{ frontmatter }}</pre>
+
 ```
 
 <script setup>
