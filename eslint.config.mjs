@@ -11,7 +11,7 @@ export default antfu({
     quotes: 'single', // or 'double'
   },
   rules: {
-
+    'no-console': 'off',
   },
   formatters: {
     /**

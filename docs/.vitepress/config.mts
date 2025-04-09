@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import UnoCSS from 'unocss/vite'
+import AutoImport from 'unplugin-auto-import/vite'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "My Awesome Project",
@@ -55,9 +56,13 @@ export default defineConfig({
     plugins: [
       UnoCSS(
         {
-          configFile: './unocss.config.ts'
+          configFile: './unocss.config.ts',
         }
-      )
+      ),
+      // AutoImport({
+      //   imports: ['vue', 'vue-router', 'pinia'],
+      //   dts: true,
+      // })
     ]
   }
 })

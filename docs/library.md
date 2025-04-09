@@ -54,6 +54,7 @@
 
 - [anime.js](https://animejs.com/) - 动画库
 - [motion](https://motion.dev/) - 动画库
+- [GSAP](https://gsap.com/) - 动画库
 
 # 密码强度检测
 

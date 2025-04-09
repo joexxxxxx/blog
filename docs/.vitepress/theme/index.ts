@@ -1,7 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { merge } from 'lodash-es'
 import "virtual:uno.css";
-
+// import '@unocss/reset/tailwind.css'
 // 动态导入所有组件
 const components = import.meta.glob('../components/*.vue', { eager: true }) as Record<string, any>
 
