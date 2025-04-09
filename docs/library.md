@@ -5,6 +5,7 @@
 - [zod](https://github.com/colinhacks/zod) - TypeScript-first schema validation with static type inference
 - [Validator.js](https://github.com/validatorjs/validator.js) - A library for string validation and sanitization
 - [VeeValidate](https://vee-validate.logaretm.com/v4/) - Form validation for Vue.js
+- [valibot](https://valibot.dev/) - Form validation for TypeScript
 
 ## 拖拽库
 
