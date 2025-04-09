@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as t,ag as h}from"./chunks/framework.cqXd1Ucj.js";const o=JSON.parse('{"title":"前端安全","description":"","frontmatter":{},"headers":[],"relativePath":"web/README.md","filePath":"web/README.md"}'),l={name:"web/README.md"};function e(n,s,p,k,r,E){return t(),a("div",null,s[0]||(s[0]=[h("",50)]))}const g=i(l,[["render",e]]);export{o as __pageData,g as default};

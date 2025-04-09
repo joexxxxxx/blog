@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t,ag as l}from"./chunks/framework.cqXd1Ucj.js";const p=JSON.parse('{"title":"表单校验","description":"","frontmatter":{},"headers":[],"relativePath":"web/实用的库.md","filePath":"web/实用的库.md"}'),i={name:"web/实用的库.md"};function o(n,a,s,h,c,d){return t(),r("div",null,a[0]||(a[0]=[l("",14)]))}const b=e(i,[["render",o]]);export{p as __pageData,b as default};
