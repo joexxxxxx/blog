@@ -1,22 +1,22 @@
-import { defineConfig } from 'vitepress'
 import UnoCSS from 'unocss/vite'
-import AutoImport from 'unplugin-auto-import/vite'
+// import AutoImport from 'unplugin-auto-import/vite'
+import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: 'My Awesome Project',
+  description: 'A VitePress Site',
   base: '/blog/',
   themeConfig: {
-    
+
     search: {
-      provider: 'local'
-    }, 
+      provider: 'local',
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples', },
+      { text: 'Examples', link: '/markdown-examples' },
       { text: 'library', link: '/library' },
-      { text: 'Electron', link: '/electron/README.md', activeMatch: '/electron/'  },
+      { text: 'Electron', link: '/electron/README.md', activeMatch: '/electron/' },
     ],
     sidebar: {
       // '/zh/guide/': { base: '/zh/guide/', items: sidebarGuide() },
@@ -27,9 +27,9 @@ export default defineConfig({
           items: [
             { text: 'Electron读取多文件', link: 'Electron读取多文件' },
             { text: 'electron性能优化', link: 'electron性能优化' },
-          ]
-        }
-      ] }
+          ],
+        },
+      ] },
     },
     // sidebar: [
     //   {
@@ -38,7 +38,7 @@ export default defineConfig({
     //       { text: 'Markdown Examples', link: '/markdown-examples' },
     //       { text: 'Runtime API Examples', link: '/api-examples' }
     //     ]
-    //   }, 
+    //   },
     //   {
     //     text: 'Electron',
     //     items: [
@@ -49,20 +49,20 @@ export default defineConfig({
     // ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+    ],
   },
   vite: {
     plugins: [
       UnoCSS(
         {
           configFile: './unocss.config.ts',
-        }
+        },
       ),
       // AutoImport({
       //   imports: ['vue', 'vue-router', 'pinia'],
       //   dts: true,
       // })
-    ]
-  }
+    ],
+  },
 })

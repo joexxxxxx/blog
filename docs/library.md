@@ -35,6 +35,7 @@
 
 ## 浏览器插件
 
+- [plasmo](https://docs.plasmo.com/) - 浏览器插件
 - [crxjs](https://crxjs.dev/vite-plugin/) - 浏览器插件
 
 ## node
@@ -57,6 +58,6 @@
 - [motion](https://motion.dev/) - 动画库
 - [GSAP](https://gsap.com/) - 动画库
 
-# 密码强度检测
+## 密码强度检测
 
 -[@zxcvbn-ts/core](https://www.npmjs.com/package/@zxcvbn-ts/core)
