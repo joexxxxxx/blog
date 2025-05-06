@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as l,ag as n}from"./chunks/framework.cqXd1Ucj.js";const o=JSON.parse('{"title":"BOM","description":"","frontmatter":{},"headers":[],"relativePath":"web/BOM.md","filePath":"web/BOM.md"}'),t={name:"web/BOM.md"};function e(p,s,h,k,r,E){return l(),a("div",null,s[0]||(s[0]=[n("",18)]))}const g=i(t,[["render",e]]);export{o as __pageData,g as default};

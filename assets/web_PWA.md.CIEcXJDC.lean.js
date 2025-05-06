@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,ag as e}from"./chunks/framework.cqXd1Ucj.js";const g=JSON.parse('{"title":"PWA","description":"","frontmatter":{},"headers":[],"relativePath":"web/PWA.md","filePath":"web/PWA.md"}'),l={name:"web/PWA.md"};function h(k,s,t,p,r,E){return n(),a("div",null,s[0]||(s[0]=[e("",7)]))}const o=i(l,[["render",h]]);export{g as __pageData,o as default};

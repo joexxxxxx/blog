@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as t,ag as e}from"./chunks/framework.cqXd1Ucj.js";const E=JSON.parse('{"title":"前端优化","description":"","frontmatter":{},"headers":[],"relativePath":"web/前端优化.md","filePath":"web/前端优化.md"}'),l={name:"web/前端优化.md"};function n(r,i,h,p,k,d){return t(),a("div",null,i[0]||(i[0]=[e("",31)]))}const g=s(l,[["render",n]]);export{E as __pageData,g as default};

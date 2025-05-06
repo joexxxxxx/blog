@@ -1,0 +1,1 @@
+import{_ as i,c as e,o as a,ag as t}from"./chunks/framework.cqXd1Ucj.js";const u=JSON.parse('{"title":"前端监控体系","description":"","frontmatter":{},"headers":[],"relativePath":"web/前端监控体系.md","filePath":"web/前端监控体系.md"}'),o={name:"web/前端监控体系.md"};function r(s,l,n,_,c,d){return a(),e("div",null,l[0]||(l[0]=[t("",5)]))}const p=i(o,[["render",r]]);export{u as __pageData,p as default};
