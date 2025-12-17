@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as r,ag as l}from"./chunks/framework.D7gJy-HQ.js";const b=JSON.parse('{"title":"IM（Electron）","description":"","frontmatter":{},"headers":[],"relativePath":"web/IM.md","filePath":"web/IM.md"}'),i={name:"web/IM.md"};function o(n,e,h,s,c,d){return r(),t("div",null,[...e[0]||(e[0]=[l("",21)])])}const q=a(i,[["render",o]]);export{b as __pageData,q as default};
